@@ -46,13 +46,12 @@ metadata:
     component: mongodb
     project: roboshop
     tier: database
-
 spec:
   selector:
     matchLabels:
-    component: mongodb
-    project: roboshop
-    tier: database
+      component: mongodb
+      project: roboshop
+      tier: database
   serviceName: "mongodb-headless" # this should be headless service
   replicas: 3 # by default is 1
   template:
