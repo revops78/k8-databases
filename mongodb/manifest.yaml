@@ -44,9 +44,9 @@ metadata:
   name: mongodb
   namespace: roboshop
   labels:
-  component: mongodb
-  project: roboshop
-  tier: database
+    component: mongodb
+    project: roboshop
+    tier: database
 
 spec:
   selector:
@@ -59,9 +59,9 @@ spec:
   template:
     metadata:
       labels:
-      component: mongodb
-      project: roboshop
-      tier: database
+        component: mongodb
+        project: roboshop
+        tier: database
     spec:
       containers:
       - name: mongodb
